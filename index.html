@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boekinformulier</title>
+</head>
+<body>
+    <form>
+        <div>
+        <label>Voornaam</label>
+        <input type="text" name="Voornaam" id="Voornaam" placeholder="Alleen letters">
+    </div>
+    <div>
+        <label>Achternaam</label>
+        <input type="text" name="Achternaam" id="Achternaam" placeholder="Alleen letters">
+    </div>
+    <div>
+        Geslacht
+        <div>
+            <label for="Man">Man</label>
+            <input type="radio" name="Geslacht" id="Man">
+        </div>
+        <div>
+            <label for="Vrouw">Vrouw</label>
+            <input type="radio" name="Geslacht" id="Vrouw">
+        </div>
+    </div>
+    <div>
+        <label>Straat en huisnummer</label>
+        <input>
+    </div>
+    <div>
+        <label>Postcode</label>
+        <input>
+    </div>
+    <div>
+        <label>Stad</label>
+        <input>
+    </div>
+    <div>
+        <label>Land</label>
+        <input>
+    </div>
+    <div>
+        <label>BSN-Nummer</label>
+        <input type="text" name="BSN-Nummer" id="BSN-Nummer" placeholder="mag niet meer dan 9 cijfers">
+    </div>
+    <div>
+        <label for="Vakantieland">Vakantieland</label>
+        <select>
+            <option value="Turkije">Turkije</option>
+            <option value="Griekenland">Griekenland</option>
+            <option value="Luxenburg">Luxenburg</option>
+            <option value="Duitsland">Duitsland</option>
+            <option value="Bulgarije">Bulgarije</option>
+        </select>
+    </div>
+    <div></div>
+    <label for="date">Datum van vertrek </label>
+    <input type="date" name="date" id="date" min="17-09-2023">
+</div>
+<div>
+    <label for="date">Datum van terugkomst</label>
+    <input type="date" name="date" id="date" min="17-09-2023">
+</div>
+<div>
+    <label>Aantal reizigers (max 4)</label>
+    <input type="text" name="Aantal reizigers (max 4)" id="Aantal reizigers (max 4)" placeholder="mag geen negatief nummer bevatten">
+    <button>Boek nu</button>
+</div>
+<div>
+    <label>E-mail</label>
+    <input>
+</div>
+<div>
+    <label>Wachtwoord (om account aan te maken)</label>
+    <input type="text" name="Wachtwoord (om account aan te maken)" id="Wachtwoord (om account aan te maken)" placeholder="wachtwoord mag niet getoond worden">
+
+</div>
+
+    </form>
+    
+</body>
+</html>
